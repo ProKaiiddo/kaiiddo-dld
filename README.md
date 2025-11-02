@@ -6,6 +6,8 @@
 
 A Python package for downloading and fetching information from social media platforms. Currently supports Dailymotion, with extensible architecture for adding more platforms.
 
+**Note:** This is an open source project. If in the future any social media platform's terms & conditions are violated, please reach out to us via email (hello.kaiiddo@example.com), and we will promptly remove that social media support from the package.
+
 ## Features
 
 - **Dailymotion Support**: Fetch detailed video information including metadata, thumbnails, channel info, and statistics.
@@ -32,17 +34,10 @@ pip install kaiiddo-dld
 ### Basic Example
 
 ```python
-from kaiiddo_dld import DailymotionDL
+from kaiiddo_dld.dailymotion import DailymotionDL
 
-# Create a downloader instance
-downloader = DailymotionDL()
-
-# Fetch video information
-url = "https://www.dailymotion.com/video/x8m8z5z"
-result = downloader.fetch_info(url)
-
-# The result is a dictionary containing all video data
-# Information is also displayed in the terminal automatically
+dl = DailymotionDL()
+info = dl.fetch_info("https://www.dailymotion.com/video/x9gjomy")
 ```
 
 ### Output Example
@@ -123,13 +118,17 @@ More platforms can be added by extending the `BaseDownloader` class.
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+Contributions are welcome! If you encounter any issues or bugs, please open an issue at [https://github.com/ProKaiiddo/kaiiddo-dld/issues](https://github.com/ProKaiiddo/kaiiddo-dld/issues).
+
+For major changes, please open an issue first to discuss what you would like to change.
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+**Feature Requests:** Tell us your favorite social media platforms, and we'll consider adding them in future versions!
 
 ## License
 
