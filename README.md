@@ -6,7 +6,7 @@
 
 A Python package for downloading and fetching information from social media platforms. Currently supports Dailymotion, with extensible architecture for adding more platforms.
 
-**Note:** This is an open source project. If in the future any social media platform's terms & conditions are violated, please reach out to us via email (hello.kaiiddo@example.com), and we will promptly remove that social media support from the package.
+**Note:** This is an open source project. If in the future any social media platform's terms & conditions are violated, please reach out to us via email (hello.kaiiddo@gmail.com), and we will promptly remove that social media support from the package.
 
 ## Features
 
@@ -137,7 +137,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Author
 
 **Aryan Rathod**
-- Email: hello.kaiiddo@example.com
+- Email: hello.kaiiddo@gmail.com
 - GitHub: [ProKaiiddo](https://github.com/ProKaiiddo)
 
 ## Repository
